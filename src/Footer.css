@@ -1,0 +1,36 @@
+.footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 65px;
+    width: 97%;
+    background-color: #282828;
+    padding: 20px;
+}
+.footer-left{
+    flex:0.3;
+}
+.footer-middle{
+    flex:0.4;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+}
+.footer-right{
+    flex:0.3;
+    display: flex;
+    align-items: center;
+}
+
+.playbutton{
+    font-size: 100px;
+}
+.footer__albumLogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+  }

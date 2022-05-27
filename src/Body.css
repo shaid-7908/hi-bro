@@ -1,0 +1,80 @@
+.body{
+   
+    flex:0.8;
+    height: 96vh;
+   color: white;
+    background: linear-gradient(rgb(91,87,115),rgb(0,0,0,1));
+    padding: 10px 20px;
+    overflow: scroll;
+}
+.body-info img{
+    height:160px;
+    box-shadow: 0 4px 64px rgb(0,0,0,1);
+    /* width:160px; */
+    /* object-fit: contain; */
+}
+.body-info{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.body-infotext{
+    flex: 1;
+    padding-left: 10px;
+}
+.body-infotext h2{
+    font-size: 38px;
+}
+.body-infotext p{
+    font-size: 14px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    z-index: 1000;
+   
+}
+.header-left{
+    display: flex;
+    flex: 0.5;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+   
+}
+.header-left input{
+    border:none;
+   outline: none;
+    width: 100%;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right>h4{
+    margin-left: 10px;
+}
+.song-all-display{
+    display: flex;
+    padding: 5px;
+}
+.song-info{
+    padding: 5px;
+}
+.song-name{
+    font-size: 1.5rem;
+color: #d9d6d2;
+}
+.song-artist{
+    font-size: 15px;
+color: #8c877f;
+}
+@media screen and (max-width: 650px){
+    .body{
+        flex: 1;
+    }
+}

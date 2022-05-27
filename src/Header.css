@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
+.header-left{
+    display: flex;
+    flex: 0.5;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+   
+}
+.header-left input{
+    border:none;
+   outline: none;
+    width: 100%;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right>h4{
+    margin-left: 10px;
+}
+.song-all-display{
+    display: flex;
+}
